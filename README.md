@@ -9,7 +9,7 @@
 3. Flask 웹 앱 제작 -> [Flask_app]
 ## 기초 ML/DL Model 
 4. 공부시간 / 점수 예측 회귀 머신러닝 모델 생성 -> [linear_regression]
-5. 타이타닉 우주선 분류 모델 생성
+5. 타이타닉 우주선 분류 모델 생성 -> [space_ship or space_ship_my]
 6. Cat & Dogs 이미지 분류 딥 러닝 모델 생성
 ## Git & Github 
 7. Git과 Github 활용

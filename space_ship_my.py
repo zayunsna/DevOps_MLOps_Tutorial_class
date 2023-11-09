@@ -46,3 +46,5 @@ for i in range(len(categorical)):
 if len(categorical) % 2 != 0:
     fig.delaxes(ax[-1])
 plt.show()
+
+
