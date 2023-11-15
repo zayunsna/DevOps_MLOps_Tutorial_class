@@ -40,7 +40,7 @@ def make_testdf(n_samples:int, nFeatures:int):
 
 
 ## PCA
-def apply_pca(dataset:pd.DataFrame, n_components:int=2, drawing:bool = False):
+def applyPCA(dataset:pd.DataFrame, n_components:int=2, drawing:bool = False):
     scaler = StandardScaler()
     data_scaled = scaler.fit_transform(dataset)
     
@@ -80,7 +80,7 @@ def apply_pca(dataset:pd.DataFrame, n_components:int=2, drawing:bool = False):
     return pca_df, principal_components, pca
 
 df_scaled = make_testdf(n_samples=1000, nFeatures=5)
-pca_df, pc, pca = apply_pca(dataset=df_scaled, n_components=5, drawing=True)
+pca_df, pc, pca = applyPCA(dataset=df_scaled, n_components=5, drawing=True)
 print(pca_df.head())
 
 
