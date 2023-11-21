@@ -14,4 +14,4 @@
 ## Git & Github 
 7. Git과 Github 활용
 8. Github Actions으로 DevOps 구축
-9. Github Actions, MLaaS로 MLOps 구축
+9. Github Actions, MLaaS로 MLOps 구축 -> [azure_mlops_autoFormat]
