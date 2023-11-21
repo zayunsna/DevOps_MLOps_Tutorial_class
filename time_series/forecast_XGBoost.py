@@ -6,12 +6,12 @@ from window_ops.rolling import rolling_mean, rolling_max, rolling_min
 from sklearn.metrics import mean_absolute_percentage_error
 import optuna
 
-from optuna.visualization import plot_contour
+from optuna.visualization.matplotlib import plot_contour
 from optuna.visualization import plot_edf
 from optuna.visualization import plot_intermediate_values
-from optuna.visualization import plot_optimization_history
+from optuna.visualization.matplotlib import plot_optimization_history
 from optuna.visualization import plot_parallel_coordinate
-from optuna.visualization import plot_param_importances
+from optuna.visualization.matplotlib import plot_param_importances
 from optuna.visualization import plot_rank
 from optuna.visualization import plot_slice
 from optuna.visualization import plot_timeline
@@ -108,7 +108,6 @@ print("%"*50)
 
 plot_optimization_history(optimizer)
 plot_contour(optimizer)
-# optuna.visualization.plot_slice_plot(optimizer)
 plot_param_importances(optimizer)
 
 ## Define the XGBoost model
