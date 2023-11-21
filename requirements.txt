@@ -6,3 +6,8 @@ seaborn
 tensorflow
 tensorflow_decision_forests
 flask
+xgboost
+mlforecast
+alive_progress
+optuna
+plotly
